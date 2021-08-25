@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #ff0057 , #ffeb3b);
+    background-repeat: no-repeat;
+}
+:root {
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+  }
+.player {
+    position: relative;
+    background: #f1f3f4;
+    box-shadow: 12px 12px 38px black;
+    overflow: hidden;
+    transition: 5s;
+    width: 300px;
+    height: 432px;
+}
+.player .imgBx{
+    position: relative;
+    width: 100%;
+    height: 350px;
+
+}
+.player img {
+    width: 300px;
+    transform: scale(1.3);
+    animation: updown 6s infinite;
+}
+@keyframes updown {
+    0%{
+        margin-top: 0;
+    }
+    50%, 100%{
+        margin-top: 20px;
+    }
+    70%{
+        margin-top: 0px;
+    }
+
+    
+}
+.head {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: var(--Lobster);
+    margin: -5px 60px 18px;
+    color: rgb(0 0 0);
+    text-shadow: 0px 0px 4px #f9a4a4;
+    letter-spacing: 4px;
+}
+audio {
+    width: 300px;
+    height: 50px;
+    background: #f1f3f4;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
